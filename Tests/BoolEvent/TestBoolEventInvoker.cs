@@ -14,7 +14,7 @@ namespace ScriptableEvents.Tests.BoolEvent
 
         private void InvokeBoolEvent()
         {
-            boolEvent.RaiseSignal(true);
+            boolEvent.RaiseEvent(true);
         }
     }
 }

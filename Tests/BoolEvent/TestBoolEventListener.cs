@@ -1,5 +1,4 @@
-﻿using ScriptableEvents.Core.Listener;
-using ScriptableEvents.Core.Listener.Implemented;
+﻿using ScriptableEvents.Core.Listener.Implemented;
 using UnityEngine;
 
 namespace ScriptableEvents.Tests.BoolEvent

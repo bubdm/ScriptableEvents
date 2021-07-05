@@ -9,7 +9,7 @@ namespace ScriptableEvents.Core.EventsDefenitions.Base
         
         public event Action<T> RaisedEvent;
         
-        public void RaiseSignal(T _argument)
+        public void RaiseEvent(T _argument)
         {
             RaisedEvent?.Invoke(_argument);
         }
