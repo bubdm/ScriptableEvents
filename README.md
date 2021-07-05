@@ -7,7 +7,7 @@
  
  1. Register new event type.
  Project have already implemented a few base event types(empty, bool, int...).
- To register new event type - create new C# class and inherit it from ```csharp ScriptableEvent<T> ```
+ To register new event type - create new C# class and inherit it from ScriptableEvent<//T>
  
 ```csharp
    using ScriptableEvents.Core.EventsDefenitions.Base;
@@ -28,7 +28,7 @@
         
    public event Action<T1> EventReceived;
 ```
- To create new listener create new class and inherit it from ```csharp ScriptableEventListener<T, T1>``` where T is your event type you created before, and T1 is data structure that you use in your event.
+ To create new listener create new class and inherit it from ScriptableEventListener<T, T1> where T is your event type you created before, and T1 is data structure that you use in your event.
 ```csharp
    // Example for bool event.
    public class BoolEventListener : ScriptableEventListener<BoolEvent, bool> {}
